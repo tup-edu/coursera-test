@@ -2,6 +2,116 @@
 <html>
 <head>
 	<title>My Shopping Website</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f9f9f9;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+		}
+		h1 {
+			margin: 0;
+			font-size: 36px;
+			font-weight: normal;
+			text-transform: uppercase;
+		}
+		nav {
+			margin-top: 10px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		nav ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: flex;
+		}
+		nav li {
+			margin-right: 20px;
+		}
+		nav li:last-child {
+			margin-right: 0;
+		}
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: bold;
+			padding: 10px;
+			transition: all 0.3s ease;
+		}
+		nav a:hover {
+			background-color: #fff;
+			color: #333;
+		}
+		main {
+			padding: 50px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
+		h2 {
+			font-size: 24px;
+			margin-bottom: 40px;
+			text-transform: uppercase;
+			color: #333;
+			text-align: center;
+			width: 100%;
+		}
+		.product {
+			background-color: #fff;
+			padding: 20px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+			margin-bottom: 40px;
+			width: calc(33.33% - 20px);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+		.product img {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 20px;
+		}
+		.product h3 {
+			font-size: 18px;
+			margin: 0;
+			margin-bottom: 10px;
+			color: #333;
+		}
+		.product p {
+			font-size: 16px;
+			line-height: 1.5;
+			margin: 0;
+			margin-bottom: 20px;
+			color: #777;
+		}
+		button {
+			background-color: #333;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			font-weight: bold;
+			cursor: pointer;
+			transition: all 0.3s ease;
+		}
+		button:hover {
+			background-color: #fff;
+			color: #333;
+		}
+	</style>
 </head>
 <body>
 	<header>
@@ -9,34 +119,4 @@
 		<nav>
 			<ul>
 				<li><a href="#">Home</a></li>
-				<li><a href="#">Products</a></li>
-				<li><a href="#">Cart</a></li>
-				<li><a href="#">Contact Us</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section>
-			<h2>Featured Products</h2>
-			<div class="product">
-				<img src="product-1.jpg" alt="Product 1">
-				<h3>Product 1</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel libero in enim auctor mattis. Sed sagittis posuere leo, quis molestie augue efficitur vel.</p>
-				<button>Add to Cart</button>
-			</div>
-			<div class="product">
-				<img src="product-2.jpg" alt="Product 2">
-				<h3>Product 2</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel libero in enim auctor mattis. Sed sagittis posuere leo, quis molestie augue efficitur vel.</p>
-				<button>Add to Cart</button>
-			</div>
-			<div class="product">
-				<img src="product-3.jpg" alt="Product 3">
-				<h3>Product 3</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel libero in enim auctor mattis. Sed sagittis posuere leo, quis molestie augue efficitur vel.</p>
-				<button>Add to Cart</button>
-			</div>
-		</section>
-	</main>
-</body>
-</html>
+				<li><a href="#">Products</
